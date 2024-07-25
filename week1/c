@@ -5,7 +5,7 @@ using namespace std;
 const int NAME_LEN = 20;  // 고객 이름 길이 (한글 한 문자는 2 바이트)
 const int MAX_CUS_NUM = 100; // 최대 고객 수
 
-void ShowMenu(void);            // 메뉴 출력을 위한 함수
+void ShowMenu(void);            // 메뉴 출력을 위한 함수,
 void MakeAccount(void);         // 계좌 개설을 위한 함수 
 void DepositMoney(void);        // 입금을 위한 함수
 void WithdrawMoney(void);       // 출금을 위한 함수
